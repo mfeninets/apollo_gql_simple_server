@@ -1,0 +1,25 @@
+{
+  "name": "apollo_gql_simple_server",
+  "version": "1.0.0",
+  "description": "Apollo and GraphQL server",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next --port 3001",
+    "build": "next build",
+    "start": "next start",
+    "now-build": "next build && yarn db:migrate",
+    "db:migrate": "knex migrate:latest",
+    "db:rollback": "knex migrate:rollback"
+  },
+  "dependencies": {
+    "apollo-server-micro": "^2.9.16",
+    "dataloader": "^2.0.0",
+    "knex": "^0.20.8",
+    "micro-cors": "^0.1.1",
+    "next": "^9.2.1",
+    "pg": "^7.17.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "license": "MIT"
+}

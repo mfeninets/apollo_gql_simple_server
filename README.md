@@ -1,2 +1,2 @@
-# apollo_gql_simple_server
-Apollo and GraphQL server example
+# nextjs_gql_simple_server
+NextJS and GraphQL server example
